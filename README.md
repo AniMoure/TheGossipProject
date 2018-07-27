@@ -1,24 +1,28 @@
-# README
+# How to install and test?
+#### Download or clone the repository
+```sh
+$ git clone https://github.com/AniMoure/TheGossipProject.git
+```
+#### Run the command to install the necessary gems
+```sh
+$ bundle install
+```
+#### Update your database structure with the migration command: 
+```sh
+$ rails db:migrate
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Generate data into your database:
+```sh
+$ rails db:seed
+```
 
-Things you may want to cover:
+#### Clears the database and runs migration on a fresh database
+```sh
+$ rails db:migrate:reset
+```
 
-* Ruby version
+#### Open the database in your DB Browser for SQLite and enjoy! 
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**Free Database, Hell Yeah!**
